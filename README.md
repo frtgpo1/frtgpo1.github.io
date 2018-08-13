@@ -1,3 +1,5 @@
+Just a Template which can be previewed at frtgpo1.github.io
+
 # [Paper Kit 2 - Free Bootstrap 4 UI Kit](http://demos.creative-tim.com/paper-kit-2) [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
 
 ![Paper Kit 2](http://s3.amazonaws.com/creativetim_bucket/products/61/original/opt_pk2_thumbnail.jpg "Paper Kit 2 Free")
