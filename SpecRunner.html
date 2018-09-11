@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Clickerick Unit Tests</title>
+
+	<!-- JQuery -->
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+
+	<!-- Styling --> 
+	<link rel="shortcut icon" type="image/png" href="lib/jasmine-2.5.0/jasmine_favicon.png">
+	<link rel="stylesheet" href="lib/jasmine-2.5.0/jasmine.css">
+
+	<!-- Test-Bibliotheken --> 
+	<script src="lib/jasmine-2.5.0/jasmine.js"></script>
+	<script src="lib/jasmine-2.5.0/jasmine-html.js"></script>
+	<script src="lib/jasmine-2.5.0/boot.js"></script>
+
+	<!-- Eigene JS-Dateien -->
+	<script src="js/main.js"></script>
+
+	<!-- Eigene Tests -->
+	<!-- do one thing functions-->
+	<script src="spec/do-one-thing-functions/addValueToClickCounter.js"></script>
+	<script src="spec/do-one-thing-functions/calculateNewItemPrice.js"></script>
+	<script src="spec/do-one-thing-functions/calculateNewItemValue.js"></script>
+	<script src="spec/do-one-thing-functions/substractItemPriceFromClickCounter.js"></script>
+	<script src="spec/do-one-thing-functions/addOneToCounterOrSetToOneWhenMaxIsReached.js"></script>
+	<script src="spec/do-one-thing-functions/setItemCounterToOne.js"></script>
+	<script src="spec/do-one-thing-functions/setItemCounterPlusOne.js"></script>
+	<script src="spec/do-one-thing-functions/setItemLevelPlusOne.js"></script>
+
+	<!-- conditional-functions -->
+	<script src="spec/conditional-functions/isCurrentItemLevelEqualToZero.js"></script>
+	<script src="spec/conditional-functions/isItemCounterHigherThanItemArrayLengthMinusOne.js"></script>
+	<script src="spec/conditional-functions/isCurrentItemLevelHigherThanItemLevelMax.js"></script>
+
+	<!-- combined functions -->
+	<script src="spec/combined-functions/setItemValueAccordingToCalculation.js"></script>
+	<script src="spec/combined-functions/callAllAddPointsFunctions.js"></script>
+	
+</head>
+
+<body>
+</body>
+</html>
