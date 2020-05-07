@@ -1,0 +1,31 @@
+INFO: CACHE SELECTORS IN VARIABLES. Standard eigentlich. Sonst muss der Browser immer wieder neu nachfragen.
+INFO: Babel Application zum Compilen von neuem JavaScript für alle Browser.
+INFO: Functional purity, avoiding side-effects. Keine Variablen außerhalb der Funktion ändern.
+INFO: Determinism - Wenn wir eine Funktion 1000 mal aufrufen, kommt bei gleichem Input immer der gleiche Output heraus. (Vorherbestimmtheit)
+INFO: Recursion - Eine Funktion ruft sich selbst auf
+
+
+JavaScript kann:
+-alle HTML Elemente und Attribute verändern, entfernen, hinzufügen
+-alle CSS Styles auf der Seite verändern
+-auf alle vorhandenen HTML Events reagieren und Neue hinzufügen
+
+
+
+Wenn eine Website geladen wird, erstellt der Browser ein DOM
+HTML Request -> CSS -> DOM wird erstellt
+https://www.w3schools.com/js/js_htmldom.asp
+
+DOM === document (JavaScript object)
+Parent = window
+Window ist ein Objekt, dass den Browser beschreibt
+Wenn man nur eine Funktion schreibt, nimmt JavaScript an, dass man von window ausgeht (window.alert etc.)
+während window wie ein Objekt aussieht, sieht das DOM aus wie HTML, aber das stellt der Browser zur Vereinfachung nur einfach so dar!
+
+Alle Browser haben eine JavaScript Engine (Chrome=V8), die
+-guckt auf die JavaScript Files, Zeile für Zeile
+-führt sie aus
+-kann das DOM ansteuern und somit HTML und CSS verändern
+
+
+

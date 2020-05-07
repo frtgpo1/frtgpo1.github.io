@@ -1,0 +1,15 @@
+const text = document.getElementById("stextDIV").innerHTML.split(" ");
+
+let newText = "";
+for(i=0;i<text.length;i++) {
+
+if(text[i].includes("weg")) {
+	newText+= "geh'n<br><br><br> ";
+	continue;
+}
+
+newText += text[i] + " ";
+}
+
+
+document.getElementById("stextDIV").innerHTML = newText;

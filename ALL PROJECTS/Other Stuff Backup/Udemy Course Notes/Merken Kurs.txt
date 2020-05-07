@@ -1,0 +1,76 @@
+what is an API?
+(collection of propertys and methods, just like an object)
+
+undefined vs null
+
+==
+===
+https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a
+
+6 Falsy values
+vn
+6 primitive values
+
+B O DM AS
+
+
+function () oder const makeCoffee in relation to window object
+
+
+curly brackets or braces {}
+square brackets []
+
+
+when objects when arrays
+
+objects have properties that describe the object with properties and methods
+arrays have elements, mostly of a similar type/use
+
+what type is an array?
+functions in arrays possible?
+
+what are pros of javascript symbols?
+
+javascript numbers characteristics
+0.2 + 0.1
+
+what is computed member access?
+if you want to access a member in an array or via a variable, you can use the square brackets.
+
+how do you delete object members?
+
+how do I delete or add or replace members at the back of an array, at the front of an array or somewhere in the middle of an array?
+
+Can you place an array in an object and vice versa? Hierarchy
+
+Can you mix and match these in the Hierarchy?
+
+How do I place default parameters in functions?
+
+What is a function in other words, a callable ...?
+
+
+Can You keep nesting functions/callable.. in one another?
+Whereever you can pass in an object, you can pass in a callable object. variable, constant, parameter.
+With the understanding of the architecture of objects you can understand the architecture of callable objects.
+
+
+hoisting?
+https://blog.bitsrc.io/hoisting-in-modern-javascript-let-const-and-var-b290405adfda
+
+What is a lexical environment?
+So in short, a lexical environment is a place where variables and functions live during the program execution.
+
+How does a lexical environment look like?
+Whats the difference between hoisting function and variable declarations?
+
+function, var, let, const, class all get hoisted.
+var gets initialized as undefined
+let, const remain uninitialized
+Temporal Dead Zone
+
+JavsScript only hoists ..., not ...?
+
+That is, during compile time, JavaScript only stores function and variable declarations in the memory, not their assignments (value).
+How does hoisting effect const and function callable objects?
+Each execution context has hoisting in it.

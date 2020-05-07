@@ -1,0 +1,1 @@
+(note: Next to the number should be the unit as a suffix (10000 L, 500 Kg, etc.) Here is a tip on how to implement it: https://stackoverflow.com/questions/49796934/add-a-text-suffix-to-input-type-number/49797347#49797347)
