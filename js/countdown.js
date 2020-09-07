@@ -26,6 +26,15 @@ function calcage(secs, num1, num2) {
   return "<b>" + s + "</b>";
 }
 
+const hfekl = () => {
+console.log("test");
+}
+
+hfekl();
+
+
+
+
 function CountBack(secs) {
   if (secs < 0) {
     document.getElementById("cntdwn").innerHTML = FinishMessage;
