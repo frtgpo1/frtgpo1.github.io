@@ -1,1 +1,0 @@
-INFO: Paint Flashing: Chrome Dev Tools -> Elements -> Esc(Konsole togglen) -> ... -> Rendering

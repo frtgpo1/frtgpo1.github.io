@@ -1,4 +1,0 @@
-mit enter drücken
-window.addEventListener("keypress", (e) => { if (e.which == 13) document.getElementsByClassName("cloud")[0].click(); } );
-
-window.addEventListener("keypress", (e) => { document.getElementsByClassName("cloud")[0].click(); } );
